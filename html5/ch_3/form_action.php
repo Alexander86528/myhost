@@ -9,7 +9,7 @@
   <?php
     $name = $_POST["login"];
     $password = $_POST["password"];
-    echo "Login: $name , password: $password\n";
+    echo "Login: $name , Password: $password\n";
   ?>
 </body>
 </html>
