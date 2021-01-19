@@ -38,22 +38,22 @@
     <p>Initial data:</p>
     <?php
         echo "start == $start;<br>
-        stop == $stop;<br>
-        step == $step;<br>
-        sign == $sign;<br>
-        x == $x;<br>";
+            stop == $stop;<br>
+            step == $step;<br>
+            sign == $sign;<br>
+            x == $x;<br>";
     ?>
     <hr>
     <p>Progression:</p>
     <?php
         if ($step != 0) {
             while ($x * $sign < $stop * $sign) {
-                echo "x == $x;<br>";
+                echo "x == $x; <br>";
                 $x += $step;
             }
-            echo "after x == $x;<br>";
+            echo "after x == $x; <br>";
         } else {
-            echo 'step == 0<br>';
+            echo 'step == 0 <br>';
         }
     ?>
     <hr>
