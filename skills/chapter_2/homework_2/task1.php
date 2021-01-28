@@ -12,5 +12,3 @@ $result1 = [
     ],
 ];
 print_r($result1);
-//var_dump($result1);
-
