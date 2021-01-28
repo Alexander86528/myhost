@@ -33,9 +33,17 @@ $result3 = [
 ];   
 
 foreach ($result3['books'] as $booksKey) {
-    echo 'Книгу ' . '\'' . $booksKey['bookTitle'] . '\''
-     . ' написал ' . $result3['authors'][$booksKey['email']]['fio']
-     . ', ' . $result3['authors'][$booksKey['email']]['birthYear'] . ' года рождения '
-     . '(' . $booksKey['email'] . ').'
-     . PHP_EOL;
+    echo 'Книгу ' . '\'' . $booksKey['bookTitle'] . '\'' . ' написал ';
+    echo $result3['authors'][$booksKey['email']]['fio'] . ', ';
+    echo $result3['authors'][$booksKey['email']]['birthYear'] . ' года рождения ';
+    echo '(' . $booksKey['email'] . ') ' . PHP_EOL;
+}
+
+echo 'shuffle' . PHP_EOL;
+shuffle($result3['books']);
+foreach ($result3['books'] as $booksKey) {
+    echo 'Книгу ' . '\'' . $booksKey['bookTitle'] . '\'' . ' написал ';
+    echo $result3['authors'][$booksKey['email']]['fio'] . ', ';
+    echo $result3['authors'][$booksKey['email']]['birthYear'] . ' года рождения ';
+    echo '(' . $booksKey['email'] . ') ' . PHP_EOL;
 }
