@@ -20,7 +20,7 @@
     <form>
         <p>
             <label>start:</label>
-            <input type="number" name="start">
+            <input type="number" name="start">  
         </p>
         <p>
             <label>stop:</label>
