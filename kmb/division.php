@@ -7,8 +7,10 @@ $z = 12345;
 
 echo '$x = ';
 var_dump($x);
+
 echo '$y = ';
 var_dump($y);
+
 echo '$z = ';
 var_dump($z);
 

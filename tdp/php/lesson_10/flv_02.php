@@ -1,12 +1,15 @@
 <?php
 
 echo '<pre>';
+
 echo '1) $_REQUEST' . '<br>';
 print_r($_REQUEST);
 echo '<br>';
+
 echo '2) $_GET' . '<br>';
 print_r($_GET);
 echo '<br>';
+
 echo '3) $_POST' . '<br>';
 print_r($_POST);
 echo '<br>';
