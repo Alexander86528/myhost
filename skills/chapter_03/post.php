@@ -6,7 +6,9 @@
 </head>
 <body>
     <form action="" method="post">
-        <input type="text" name="cd">
+        <label>
+            <input type="text" name="cd">
+        </label>
         <input type="submit" value="Отправить" name="ef">
     </form>
     <pre><?php

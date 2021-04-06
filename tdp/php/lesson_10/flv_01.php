@@ -1,5 +1,5 @@
 <?php
-echo $_GET['name'];
+
 ?>
 <!DOCTYPE html>
 <!-- tdp Урок 10. "Основы работы с формами в PHP" -->
@@ -18,5 +18,9 @@ echo $_GET['name'];
         <p><label>Age: <input type="text" name="age"></label></p>
         <p><button>Send</button></p>
     </form>
+    <?php
+        echo 'Name: ' . $_GET['name'] . '<br>';
+        echo 'Age: ' . $_GET['age'] . '<br>';
+    ?>
 </body>
 </html>

@@ -1,8 +1,8 @@
 <?php
 
-$name = $_REQUEST['name'];
-$age = $_REQUEST['age'];
-$text = $_REQUEST['text'];
+$name = strip_tags(trim($_REQUEST['name']));
+$age = strip_tags(trim($_REQUEST['age']));
+$text = strip_tags(trim($_REQUEST['text']));
 
 ?>
 <!DOCTYPE html>
@@ -11,19 +11,24 @@ $text = $_REQUEST['text'];
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Основы работы с формами</title>
+  <title>4.flv (Решение задачи 2)</title>
 </head>
 <body>
+    <p><b>Задача 2.</b><br> Спросите у пользователя имя, возраст, а также попросите его ввести
+сообщение (textarea).<br> Выведите эти данные на экран в формате,
+приведенном под данной задачей.<br> Позаботьтесь о том, чтобы
+пользователь не мог вводить теги и таким образом сломать сайт.<br>
+    </p>
     <form action="" method="POST">
-        <input type="text" name="name" placeholder="Введите имя"><br><br>
-        <input type="text" name="age" placeholder="Введите возраст"><br><br>
-        <textarea name="text" placeholder="Введите сообщение"></textarea><br>
-        <input type="submit" >
+        <p><label><input type="text" name="name" placeholder="Введите имя"></label></p>
+        <p><label><input type="text" name="age" placeholder="Введите возраст"></label></p>
+        <p><label><textarea name="text" placeholder="Введите сообщение"></textarea></label></p>
+        <p><label><input type="submit" ></label></p>
     </form>
     <?php
       if (!empty($_REQUEST['name'] and $_REQUEST['age'] and $_REQUEST['text'])) {
         echo 'Привет, ' . $name . ' ' . $age . '<br>';
-        echo 'Сообщение ' . $text . '<br>';
+        echo 'Сообщение: ' . $text . '<br>';
       }
     ?>
 </body>
