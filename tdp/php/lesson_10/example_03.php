@@ -8,10 +8,10 @@
 </head>
 <body>
     <?php
-        if (!isset($_REQUEST['city'])) {
+        if (!isset($_GET['city'])) {
     ?>
         <form action="" method="$_GET">
-            <input type="text" name="name">
+            <input type="text" name="city">
             <input type="submit" value="Отправить">
         </form>
     <?php

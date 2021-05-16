@@ -1,6 +1,6 @@
 <?php
 
-$name = $_REQUEST['name'];
+$name = $_POST['name'];
 
 ?>
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ $name = $_REQUEST['name'];
     <p><label><input type="submit" value="Отправить"></label></p>
   </form>
   <?php
-    if (!empty($_REQUEST['name'])) {
+    if (!empty($_POST['name'])) {
       echo 'Привет, ' . $name . '!' . '<br>';
     }
   ?>

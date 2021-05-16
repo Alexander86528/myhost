@@ -1,8 +1,8 @@
 <?php
 
-$name = strip_tags(trim($_REQUEST['name']));
-$age = strip_tags(trim($_REQUEST['age']));
-$text = strip_tags(trim($_REQUEST['text']));
+$name = strip_tags(trim($_POST['name']));
+$age = strip_tags(trim($_POST['age']));
+$text = strip_tags(trim($_POST['text']));
 
 ?>
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ $text = strip_tags(trim($_REQUEST['text']));
         <p><label><input type="submit" ></label></p>
     </form>
     <?php
-      if (!empty($_REQUEST['name'] and $_REQUEST['age'] and $_REQUEST['text'])) {
+      if (!empty($_POST['name'] and $_POST['age'] and $_POST['text'])) {
         echo 'Привет, ' . $name . ' ' . $age . '<br>';
         echo 'Сообщение: ' . $text . '<br>';
       }

@@ -13,7 +13,7 @@
 </head>
 <body>
     <p>php tdp lesson_07(form) 1.flv</p>
-    <form action="" method="$_GET">
+    <form action="">
         <p><label>Name: <input type="text" name="name"></label></p>
         <p><label>Age: <input type="text" name="age"></label></p>
         <p><button>Send</button></p>
