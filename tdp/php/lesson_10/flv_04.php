@@ -7,7 +7,7 @@ $text = strip_tags(trim($_POST['text']));
 ?>
 <!DOCTYPE html>
 <!-- tdp Урок 10. "Основы работы с формами в PHP" -->
-<!-- Видео из дополнительных материалов "3.flv" -->
+<!-- Видео из дополнительных материалов "4.flv" -->
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
