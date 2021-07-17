@@ -12,3 +12,4 @@ sudo systemctl disable --now ssh
 
 5) Включить ssh сервер
 sudo systemctl enable --now ssh
+
