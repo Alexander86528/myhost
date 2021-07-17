@@ -1,0 +1,105 @@
+ 
+                УСТАНОВКА NGINX ИЗ ИСХОДНОГО КОДА
+
+https://nginx.org/ru/                
+https://www.nginx.com/resources/wiki/
+
+1)Устанавливаем пакет который содержит инструменты компиляции:
+1.1) sudo apt install build-essential
+
+
+2)Скачиваем исходный код
+wget https://nginx.org/download/nginx-1.21.0.tar.gz
+
+3)Разархивируем
+tar -zxvf nginx-1.21.0.tar.gz
+
+4)Устанавливаем библ 
+sudo apt install libpcrecpp0v5:i386 libpcrecpp0v5 libssl-dev zlib1g-dev
+
+5)На uma 20.2 ошибка:
+./configure: error: the HTTP rewrite module requires the PCRE library.
+You can either disable the module by using --without-http_rewrite_module
+option, or install the PCRE library into the system, or build the PCRE library
+statically from the source with nginx by using --with-pcre=<path> option.
+ 
+решение первое:
+sudo apt install  libpcre++-dev
+
+решение второе:
+после установки pcre-8.43 ошибка пропала.
+скачиваем пакет с сайта:
+wget https://ftp.pcre.org/pub/pcre/pcre-8.43.tar.gz
+разархивируем:
+tar -zxvf pcre-8.43.tar.gz
+в команде конфигурирования "6)" меняем 
+--with-pcre (по умолчанию если эта библиотека уже установлена)
+--with-pcre=../pcre-8.43
+
+
+
+6)конфигурируем
+./configure --sbin-path=/usr/bin/nginx --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-debug --with-pcre --with-http_ssl_modulecd 
+
+Configuration summary
+  + using system PCRE library
+  + using system OpenSSL library
+  + using system zlib library
+
+  nginx path prefix: "/usr/local/nginx"
+  nginx binary file: "/usr/bin/nginx"
+  nginx modules path: "/usr/local/nginx/modules"
+  nginx configuration prefix: "/etc/nginx"
+  nginx configuration file: "/etc/nginx/nginx.conf"
+  nginx pid file: "/usr/local/nginx/logs/nginx.pid"
+  nginx error log file: "/var/log/nginx/error.log"
+  nginx http access log file: "/var/log/nginx/access.log"
+  nginx http client request body temporary files: "client_body_temp"
+  nginx http proxy temporary files: "proxy_temp"
+  nginx http fastcgi temporary files: "fastcgi_temp"
+  nginx http uwsgi temporary files: "uwsgi_temp"
+  nginx http scgi temporary files: "scgi_temp"
+  
+7) Сборка
+ make
+  
+8) Установка
+sudo make install  
+  
+
+
+            NGINX В КАЧЕСТВЕ СЕРВИСА
+
+1) Нужно скачать init script он называется nginx в /etc/init.d/
+https://github.com/JasonGiedymin/nginx-init-ubuntu
+
+2) Права на исполнение 
+/etc/init.d/nginx
+sudo chmod +x /etc/init.d/nginx
+
+3)т.к файлы установлены не по умолчанию
+создаём файл /etc/default/nginx
+в нё пишем:
+NGINX_CONF_FILE=/etc/nginx/nginx.conf
+DAEMON=/usr/bin/nginx
+
+4)перезапуск
+
+5)запускаем сервис:
+sudo service nginx start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
