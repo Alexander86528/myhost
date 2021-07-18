@@ -1,0 +1,10 @@
+
+    КОНФИГУРАЦИЯ GIT
+git config --global user.name Alexander86528
+git config --global user.email dl800259@gmail.com
+git config --global core.editor "gedit --wait --new-window"
+ 
+    GITIGNORE
+.gitignore
+.directory
+
