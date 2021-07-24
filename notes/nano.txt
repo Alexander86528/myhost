@@ -8,4 +8,5 @@
 3) Конфигурация:
 ~/.nanorc
 
-
+set linenumbers
+set tabsize 8

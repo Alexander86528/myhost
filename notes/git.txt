@@ -1,6 +1,19 @@
 
 git add
+
 git commit -m "comment"
+commit - совершить, фиксировать.
+modified - изменённый.
+staged - подготовленный.
+
 git status
-git diff
+
+git diff (--staged)
+
 git log
+
+git checkout <file>
+возврат изменений.
+checkout - проверить;
+
+git show <хеш>.
