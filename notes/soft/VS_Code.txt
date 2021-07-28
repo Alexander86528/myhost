@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+﻿СПИСОК НЕОБХОДИМЫХ ПЛАГИНОВ:
+* All Autocomplete
+* Auto Close Tag
+* Auto Complete Tag
+* Auto Rename Tag
+* Code Runner
+* JavaScript (ES6) code snippets
+* Live Server
+* Multiple clipboards for VSCode
+* Sass 
+* Easy Less
+* Theme - Oceanic Next (опционально)
+* vscode-icons
+--------------------------------------------------------------------------------
+
+ЗАКОММЕНТИРОВАТЬ ЧАСТЬ СТРОКИ:
+выделить и shift+alt+a
+выделить всю строку:
+Устанавл курсор на строку и ctrl+/
+ 

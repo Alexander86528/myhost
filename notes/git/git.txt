@@ -1,4 +1,9 @@
 
+git config
+git config --list --show-origin
+show - показать;
+origin - источник;
+
 git add
 
 git commit -m "comment"
@@ -12,8 +17,7 @@ git diff (--staged)
 
 git log
 
-git checkout <file>
-возврат изменений.
+git checkout <file> "возврат изменений".
 checkout - проверить;
 
 git show <хеш>.
