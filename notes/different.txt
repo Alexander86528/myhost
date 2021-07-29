@@ -3,21 +3,13 @@ DISTRIB_ID=Ubuntu
 DISTRIB_RELEASE=20.04
 DISTRIB_CODENAME=focal
 DISTRIB_DESCRIPTION="Ubuntu 20.04.2 LTS"
-
-2)pwd
-print working directory
-
 --------------------------------------------------------------------------------
 1) PATH ENVIROMENT
 добавить какой-либо каталог к переменной PATH
 PATH=$PATH:/home/swaroop/mydir
 где '/home/swaroop/mydir' – это каталог, который я хочу добавить к переменной PATH.
 echo $PATH-посмотреть переменную.
---------------------------------------------------------------------------------
-2) 
-chmod +x <file>
-change mode - смена режима
---------------------------------------------------------------------------------
+
 3) XAMPP ENVIROMENT
 /etc/enviroment
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
@@ -26,21 +18,6 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 Получится
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/lampp/bin"
 --------------------------------------------------------------------------------
-4)
-Команды chown и chgrp.
-chown "владелец" "файл" - права владельца
-chgrp "владелец" "файл" - права группы
---------------------------------------------------------------------------------
-
-5)
-Удаление директорий утилита rm
-sudo rm -rf "file"
-
-Копирование  cp
--r  рекурсивно
--p  c сохранением прав
---------------------------------------------------------------------------------
-
 sudo apt install cryfs
 6) Удаление зашифрованных папок
 1. CD ~ / хранилища
@@ -55,3 +32,4 @@ rm vaultname.enc
 3. Наконец, откройте nano и удалите все ссылки на ваше хранилище в ~ / .Config / plasmavaultrc и сохранить его.
 /home/alk/.config/plasmavaultrc
 --------------------------------------------------------------------------------
+
