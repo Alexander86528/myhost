@@ -1,11 +1,13 @@
 
-git config
+    GIT CONFIG
+git config --list
 git config --list --show-origin
 show - показать;
 origin - источник;
 
-git add
+GIT ADD.
 
+        GIT COMMIT
 git commit -m "comment"
 commit - совершить, фиксировать.
 modified - изменённый.
@@ -13,6 +15,7 @@ staged - подготовленный.
 
 git status
 
+        GIT DIFF (difference-разница)
 git diff (--staged)
 
 git log

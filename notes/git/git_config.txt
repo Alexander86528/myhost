@@ -4,6 +4,12 @@ git config --global user.name Alexander86528
 git config --global user.email dl800259@gmail.com
 git config --global core.editor "gedit --wait --new-window"
  
+git config --global user.name Auma30
+git config --global user.email almubuntu5@gmail.com
+git config --global core.editor "nano -w"
+
+git config --list --show-origin
+
     GITIGNORE
 .gitignore
 .directory
