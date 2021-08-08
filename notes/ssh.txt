@@ -13,3 +13,4 @@ sudo systemctl disable --now ssh
 5) Включить ssh сервер
 sudo systemctl enable --now ssh
 
+:~$ ssh auma@172.16.78.137
