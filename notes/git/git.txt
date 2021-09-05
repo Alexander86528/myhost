@@ -18,13 +18,17 @@ git status
         GIT DIFF (difference-разница)
 git diff (--staged)
 
+Показать историю commit.
 git log
+
+git show <хеш>.
 
 git checkout <file> "возврат изменений".
 checkout - проверить;
 
-git show <хеш>.
+
 
 remote-удалённый, дистанционный;
-nothing to commit, working tree clean-ничего не нужно предпринимать, рабочее дерево чистое.
+nothing to commit, working tree clean - ничего не нужно предпринимать, рабочее дерево чистое.
 Your branch is up to date with 'origin/master'-в вашей ветке обновлено значение origin / master.
+
