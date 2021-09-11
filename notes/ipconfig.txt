@@ -1,0 +1,10 @@
+адреса:
+ifconfig
+ip a
+
+роутинг:
+route
+ip r
+
+DNS:
+cat /etc/resolv.conf
