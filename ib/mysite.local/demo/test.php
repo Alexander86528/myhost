@@ -1,1 +1,2 @@
-<?
+<?php
+echo strftime("%d");
