@@ -30,7 +30,7 @@
     <blockquote>
       <?php
         //echo strftime('Сегодня %d-%m-%Y'); 
-        echo 'Сегодня ' , $day, ' число, ' , $mon, ' месяц, ' , $year, ' год.';
+        echo "Сегодня  $day число, $mon месяц, $year год.";
       ?>
     </blockquote>
     <h3>Зачем мы ходим в школу?</h3>
