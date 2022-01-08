@@ -10,6 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2. Arrays 15 - 21</title>
+  <link rel="stylesheet" href="/dt/css/numbering.css" type="text/css">
 </head>
 <body>
   <h2>Массивы 15-21</h2>
