@@ -8,13 +8,8 @@
 </head>
 <body>
   <ul>
-    <li><a href="task-01.php">task 1; task 2; task 3; task 4</a><br>
-      Проверьте то, что переменная $test больше 10;<br>
-      Проверьте то, что переменная $test меньше 10;<br>
-      Проверьте то, что переменная $test больше или равна 10;<br>
-      Проверьте то, что переменная $test меньше или равна 10;<br>
-    </li>
-    
+    <li><a href="22-if-else-construction.php">22. if-else construction</a></li>
+    <li><a href="24-logical-and-and-or.php">24. Логическое И и ИЛИ</a></li>
   </ul>
   
 </body>

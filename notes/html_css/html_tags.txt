@@ -1,8 +1,0 @@
-
-<a> "anchor" якорь.
-href "hyper reference" гиперссылка.
-
-width - ширина.
-height - высота.
-
-

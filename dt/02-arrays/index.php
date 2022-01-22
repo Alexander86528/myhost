@@ -39,7 +39,13 @@
       </ol>
     </li>
     <li><a href="20-filling-arrays-in-php/filling-arrays-in-php.php">20. Заполнение массивов</a></li>
-    <li><a href="21-keys-from-variables-in-PHP/keys-from-variables-in-php.php">21. Ключи из переменных в php</a></li>
+    <li><a href="21-keys-from-variables-in-PHP/keys-from-variables-in-php.php">21. Ключи из переменных в php</a>
+      <ol>
+        <li><a href="21-keys-from-variables-in-PHP/keys-from-variables-in-php.php#example-21">example 21</a></li>
+        <li><a href="21-keys-from-variables-in-PHP/keys-from-variables-in-php.php#task-1">task 1</a></li>
+        <li><a href="21-keys-from-variables-in-PHP/keys-from-variables-in-php.php#task-2">task 2</a></li>
+      </ol>
+    </li>
   </ol>
 </body>
 </html>

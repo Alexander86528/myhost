@@ -22,6 +22,7 @@ mb_internal_encoding('UTF-8');
     <li><a href="/dt/06-standard-functions">standard functions 67-71</a></li>
     <li><a href="/dt/07-custom-functions">custom function 72-83</a></li>
     <li><a href="/dt/08-regular-expressions">regular expressions 84-117</a></li>
+    <li><a href="/dt/09-string-formation">string formation 118-126</a></li>
   </ol>
 </body>
 </html>

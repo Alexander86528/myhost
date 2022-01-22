@@ -76,5 +76,29 @@
     print_r($array);
     echo '</pre>';
   ?>
+
+  <h2>Task 3</h2>
+  <p>Пусть дан пустой массив.</p>
+  <p>Описанным способом в ключ 'year' запишите текущий год, в ключ 'month' - текущий месяц, а в ключ 'day' - текущий день.</p>
+  <?php
+  $array3 = [];
+
+  var_dump($array3);
+  echo '<br>';
+  /*
+  $array3['year'] = date('Y');
+  $array3['month'] = date('F');
+  $array3['day'] = date('d');
+  */
+  $array3['year'] = strftime('%Y');
+  $array3['month'] = strftime('%B');
+  $array3['day'] = strftime('%A');
+  $array3['time'] = strftime('%R');
+  //var_dump($array3);
+  echo '<pre>';
+  print_r($array3);
+  echo '</pre>';
+  echo '<br>';
+  ?>
 </body>
 </html> 
