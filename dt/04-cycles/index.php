@@ -7,6 +7,7 @@
    <title>4. Cycles 37 - 61</title>
  </head>
  <body>
-   
+   <a href="while-37.php">Циклы. 37. Цикл while.</a><br>
+   <a href="errors-38.php">Циклы. 38. Ошибки - цикл while.</a><br>
  </body>
  </html>
