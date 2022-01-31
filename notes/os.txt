@@ -1,17 +1,13 @@
 1) ubuntu 20.04
 aub@ubuntu
 
-2) kali 2021_2
-akali@kali
+2) kali
+ak
+as30df
 
-3) fedora 33
-af@localhost
 
 4) CentOS 8
 acent@localhost
-
-5) OpenSUSE LEAP 15.3
-asuse@localhost
 
 6) Linux Mint 20.2 Cinnamon
 auma@uma
