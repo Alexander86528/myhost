@@ -1,5 +1,5 @@
 error_reporting(E_ALL);
-
+ini_set('display_errors', 'on');
 <?php
 echo "<a href='index.php'>03-conditions, index.php</a>";
 echo '<br>';
