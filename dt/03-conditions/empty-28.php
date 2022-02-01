@@ -1,3 +1,5 @@
+error_reporting(E_ALL);
+
 <?php
 echo "<a href='index.php'>03-conditions, index.php</a>";
 echo '<br>';
