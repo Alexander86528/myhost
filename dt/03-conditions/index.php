@@ -10,6 +10,8 @@
   <ul>
     <li><a href="22-if-else-construction.php">22. if-else construction</a></li>
     <li><a href="24-logical-and-and-or.php">24. Логическое И и ИЛИ</a></li>
+    <li><a href="isset-27.php">27. isset</a></li>
+    <li><a href="empty-28.php">28. empty</a></li>
   </ul>
   
 </body>
