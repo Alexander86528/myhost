@@ -36,6 +36,7 @@ echo "0 $arr[1] 2 $arr[3] 4 $arr[5] \n";
 
 echo '<p>task 3<br>Упростить код</p>';
 $arr = ['a' => 1, 'b' => 2, 'c' => 3];
+echo 'ассоциативный массив:<br>';
 print_r($arr);
 echo '<br>';
 echo 'text' . $arr['a'] . ' text' . $arr['b'] . ' text' . $arr['c'] . '<br>';
