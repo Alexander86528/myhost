@@ -8,7 +8,13 @@
 </head>
 <body>
   <h1>String formation 118-126</h1>
-  <a href="inserting-variables-in-php-118.php">Вставка переменной в PHP</a>
-  <a href="looping-and-inserting-variables-in-PHP.php">Цикл и всавка переменных в PHP</a>
+  <ol>
+    <li>
+      <a href="inserting-variables-in-php-118.php">118. Вставка переменной в PHP</a>
+    </li>
+    <li>
+      <a href="looping-and-inserting-variables-in-PHP.php">119. Цикл и всавка переменных в PHP</a>
+    </li>
+  </ol>
 </body>
 </html>
