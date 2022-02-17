@@ -12,6 +12,9 @@
     <li><a href="24-logical-and-and-or.php">24. Логическое И и ИЛИ</a></li>
     <li><a href="isset-27.php">27. isset</a></li>
     <li><a href="empty-28.php">28. empty</a></li>
+    <li><a href="">29. Сокращённый синтаксис</a></li>
+    <li><a href="">30. Комбинации if-else</a></li>
+    <li><a href="lesson-31.php">31. example if-else</a></li>
   </ul>
   
 </body>
