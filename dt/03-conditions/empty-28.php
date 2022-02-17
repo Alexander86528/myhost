@@ -7,8 +7,8 @@ echo '<br>';
 // $test = false;
 // $test = '';
 // $test = 0;
-// $test = '0';
-$test = null;
+$test = '0';
+// $test = null;
 
 if (empty($test)) {
   echo '<strong style="color:red;">Пусто</strong> <br>';

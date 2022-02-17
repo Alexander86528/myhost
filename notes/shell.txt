@@ -30,3 +30,9 @@ ip a
     Поиск для удаления
 apt search имя
 dpkg -l имя*
+sudo dpkg -S /usr/bin/<name>
+
+    Удаление
+sudo apt remove <name>
+sudo apt purge <name>
+sudo apt autoremove
