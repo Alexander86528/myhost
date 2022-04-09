@@ -16,10 +16,18 @@ staged - подготовленный.
 git status
 
         GIT DIFF (difference-разница)
-git diff (--staged)
+git diff - перед индексацией;
+git diff --staged - после индексации;
+
+
+    "Буфер обмена"
+stash - припрятать;
+apply - применять;
+git stash;
+git stash apply - вставить из буфера;
 
 Показать историю commit.
-git log
+git log -p <число>;
 
 git show <хеш>.
 

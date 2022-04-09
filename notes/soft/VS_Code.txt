@@ -6,7 +6,7 @@
 * Auto Rename Tag
 * Code Runner
 * JavaScript (ES6) code snippets
-* Live Server
+* 
 * Multiple clipboards for VSCode
 * Sass 
 * Easy Less
@@ -19,6 +19,8 @@ Prettier — code formatter
 Russian Language Pack for Visual Studio Code: 
 ext install MS-CEINTL.vscode-language-pack-ru
 
+OPEN IN BROWSER
+LIVE SERVER
 --------------------------------------------------------------------------------
 
     Определяет видимость строки меню. Значение toggle указывает, что строка меню скрыта и для ее вывода нужно один раз нажать клавишу ALT. По умолчанию строка меню не будет отображаться только в полноэкранном режиме.
