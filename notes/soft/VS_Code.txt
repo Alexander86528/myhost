@@ -40,6 +40,13 @@ shift+ctrl+c
 ctr + z - перенос строки;
 
 ctr+tab - переключение вкладок;
-shift+alt+(вверх/вниз) мульти курсор;
+shift+alt+(вверх/вниз) мульти курсор;(shift+ctrl)
 Добавить курсор к следующему вхождению (CTRL+D)
+
+Список: ul>li*3{Item $}
+ <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+ </ul>
 
