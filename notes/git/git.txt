@@ -49,6 +49,9 @@ git branch -d <name branch>
 git push origin --delete <name branch>
 git push origin :<name branch>
 
+удаление метки после слияния веток(после удалений осталась локально метка)
+git fetch --prune
+
 staged - поэтапное
 changes - изменения
 
