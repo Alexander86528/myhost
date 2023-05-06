@@ -1,0 +1,23 @@
+
+fieldset-набор полей
+submit-представлять на рассмотрение
+required-необходимый, обязательный
+search-поиск 
+week-неделя
+month-месяц
+range-диапазон
+placeholder-заполнитель
+autocomplete-автозаполнение
+local storage-локальное хранилище
+
+overlay - наложение
+shape - форма
+hexagon - шестиугольник
+overflow - переполнение
+
+translate - переводить
+scale - шкала
+skew - перекос
+origin - источник
+
+rect - прямой
