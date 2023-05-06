@@ -1,0 +1,62 @@
+
+    GIT CONFIG
+git config --list
+git config --list --show-origin
+show - показать;
+origin - источник;
+
+GIT ADD.
+
+        GIT COMMIT
+git commit -m "comment"
+commit - совершить, фиксировать.
+modified - изменённый.
+staged - подготовленный.
+
+git status
+
+        GIT DIFF (difference-разница)
+git diff - перед индексацией;
+git diff --staged - после индексации;
+Просмотр ненужных пробелов
+git diff --check
+
+
+    "Буфер обмена"
+stash - припрятать;
+apply - применять;
+git stash;
+git stash apply - вставить из буфера;
+
+Показать историю commit.
+git log -p <число>;
+gti log --oneline
+git show <хеш>.
+
+git checkout <file> "возврат изменений".
+checkout - проверить;
+
+remote-удалённый, дистанционный;
+nothing to commit, working tree clean - ничего не нужно предпринимать, рабочее дерево чистое.
+Your branch is up to date with 'origin/master'-в вашей ветке обновлено значение origin / master.
+
+получение изменений с гитхаба
+1) git fetch origin
+
+удаление ветки локально после слияния
+git branch -d <name branch>
+Удаление ветки на гитхабе после того как удалена локально.
+git push origin --delete <name branch>
+git push origin :<name branch>
+
+удаление метки после слияния веток(после удалений осталась локально метка)
+git fetch --prune
+
+staged - поэтапное
+changes - изменения
+
+branch - ветка
+feature(фича) - особенность, свойство, характеристика
+issue - вопрос, проблема
+checkout - проверка, отладка, контроль
+log - журнал
