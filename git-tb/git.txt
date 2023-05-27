@@ -34,7 +34,7 @@ gti log --oneline
 git show <хеш>.
 
 git checkout <file> "возврат изменений".
-checkout - проверить;
+check out - проверить;
 
 remote-удалённый, дистанционный;
 nothing to commit, working tree clean - ничего не нужно предпринимать, рабочее дерево чистое.
