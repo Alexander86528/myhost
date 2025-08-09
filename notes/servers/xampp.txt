@@ -8,24 +8,24 @@
 2)Редактируем файл /opt/lampp/etc/extra/httpd-vhosts.conf
 Создаём виртуальные хосты:
 при помощи директивы разрешаем запускать файлы из директорий
-<Directory /home/al/projects>
+<Directory "/home/al/projects>"
 	Require all granted
 #	Options Indexes чтобы отбраж файловая ситема, если нет index.* файла/
 </Directory>
 
 <VirtualHost *:80>
-    DocumentRoot /home/al/projects/myhost1
+    DocumentRoot "/home/al/projects/myhost1"
     ServerName myhost1
 </VirtualHost>
 
 <VirtualHost *:80>
-    DocumentRoot /home/al/projects/myhost2
+    DocumentRoot "/home/al/projects/myhost2"
     ServerName myhost2
 </VirtualHost>
 
 #Текущий хост находится в директории /opt/lampp/htdocs
 <VirtualHost *:80>   
-    DocumentRoot /opt/lampp/htdocs
+    DocumentRoot "/opt/lampp/htdocs"
     ServerName localhost
 </VirtualHost>
 
