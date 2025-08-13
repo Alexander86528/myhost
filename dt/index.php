@@ -14,7 +14,7 @@ mb_internal_encoding('UTF-8');
 </head>
 <body>
   <ol>
-    <li><a href="/dt/01-the-basics">the basics 1-14</a></li>
+    <li><a href="/dt/the-basics-01">the basics 1-14</a></li>
     <li><a href="/dt/02-arrays">arrays 15-21</a></li>
     <li><a href="/dt/03-conditions">conditions 22-36</a></li>
     <li><a href="/dt/04-cycles">cycles 37-61</a></li>
