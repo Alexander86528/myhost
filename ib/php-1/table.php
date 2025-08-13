@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 	<head>
-		<title>Таблица умножения</title>
+		<title>РўР°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ</title>
 		<meta http-equiv="content-type"
 			content="text/html; charset=windows-1251" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
@@ -9,27 +9,27 @@
 	<body>
 
 		<div id="header">
-			<!-- Верхняя часть страницы -->
-			<img src="logo.gif" width="187" height="29" alt="Наш логотип" class="logo" />
-			<span class="slogan">приходите к нам учиться</span>
-			<!-- Верхняя часть страницы -->
+			<!-- Р’РµСЂС…РЅСЏСЏ С‡Р°СЃС‚СЊ СЃС‚СЂР°РЅРёС†С‹ -->
+			<img src="logo.gif" width="187" height="29" alt="РќР°С€ Р»РѕРіРѕС‚РёРї" class="logo" />
+			<span class="slogan">РїСЂРёС…РѕРґРёС‚Рµ Рє РЅР°Рј СѓС‡РёС‚СЊСЃСЏ</span>
+			<!-- Р’РµСЂС…РЅСЏСЏ С‡Р°СЃС‚СЊ СЃС‚СЂР°РЅРёС†С‹ -->
 		</div>
 
 		<div id="content">
-			<!-- Заголовок -->
-			<h1>Таблица умножения</h1>
-			<!-- Заголовок -->
-			<!-- Область основного контента -->
+			<!-- Р—Р°РіРѕР»РѕРІРѕРє -->
+			<h1>РўР°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ</h1>
+			<!-- Р—Р°РіРѕР»РѕРІРѕРє -->
+			<!-- РћР±Р»Р°СЃС‚СЊ РѕСЃРЅРѕРІРЅРѕРіРѕ РєРѕРЅС‚РµРЅС‚Р° -->
 			<form action=''>
-				<label>Количество колонок: </label><br />
+				<label>РљРѕР»РёС‡РµСЃС‚РІРѕ РєРѕР»РѕРЅРѕРє: </label><br />
 				<input name='cols' type='text' value="" /><br />
-				<label>Количество строк: </label><br />
+				<label>РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє: </label><br />
 				<input name='rows' type='text' value="" /><br />
-				<label>Цвет: </label><br />
+				<label>Р¦РІРµС‚: </label><br />
 				<input name='color' type='text' value="" /><br /><br />
-				<input type='submit' value='Создать' />
+				<input type='submit' value='РЎРѕР·РґР°С‚СЊ' />
 			</form>
-			<!-- Таблица -->
+			<!-- РўР°Р±Р»РёС†Р° -->
 			<table border='1' width="200">
 				<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
 				<tr><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td></tr>
@@ -37,25 +37,25 @@
 				<tr><td>4</td><td>8</td><td>12</td><td>16</td><td>10</td></tr>
 				<tr><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td></tr>
 			</table>
-			<!-- Таблица -->
-			<!-- Область основного контента -->
+			<!-- РўР°Р±Р»РёС†Р° -->
+			<!-- РћР±Р»Р°СЃС‚СЊ РѕСЃРЅРѕРІРЅРѕРіРѕ РєРѕРЅС‚РµРЅС‚Р° -->
 		</div>
 		<div id="nav">
-			<h2>Навигация по сайту</h2>
-			<!-- Меню -->
+			<h2>РќР°РІРёРіР°С†РёСЏ РїРѕ СЃР°Р№С‚Сѓ</h2>
+			<!-- РњРµРЅСЋ -->
 			<ul>
-				<li><a href='index.php'>Домой</a></li>
-				<li><a href='about.php'>О нас</a></li>
-				<li><a href='contact.php'>Контакты</a></li>
-				<li><a href='table.php'>Таблица умножения</a></li>
-				<li><a href='calc.php'>Калькулятор</a></li>
+				<li><a href='index.php'>Р”РѕРјРѕР№</a></li>
+				<li><a href='about.php'>Рћ РЅР°СЃ</a></li>
+				<li><a href='contact.php'>РљРѕРЅС‚Р°РєС‚С‹</a></li>
+				<li><a href='table.php'>РўР°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ</a></li>
+				<li><a href='calc.php'>РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ</a></li>
 			</ul>
-			<!-- Меню -->
+			<!-- РњРµРЅСЋ -->
 		</div>
 		<div id="footer">
-			<!-- Нижняя часть страницы -->
-			&copy; Супер Мега Веб-мастер, 2000 - 2012
-			<!-- Нижняя часть страницы -->
+			<!-- РќРёР¶РЅСЏСЏ С‡Р°СЃС‚СЊ СЃС‚СЂР°РЅРёС†С‹ -->
+			&copy; РЎСѓРїРµСЂ РњРµРіР° Р’РµР±-РјР°СЃС‚РµСЂ, 2000 - 2012
+			<!-- РќРёР¶РЅСЏСЏ С‡Р°СЃС‚СЊ СЃС‚СЂР°РЅРёС†С‹ -->
 		</div>
 	</body>
 </html>
